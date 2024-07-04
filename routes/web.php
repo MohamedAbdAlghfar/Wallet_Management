@@ -52,8 +52,8 @@ Route::delete('superAdmin/destroyB_Admin/{b_AdminId}', 'App\Http\Controllers\Sup
 Route::get('superAdmin/deleteC_Admin', 'App\Http\Controllers\SuperAdmin\CompanyAdminController@delete')->name('C_Admin.delete');
 Route::delete('superAdmin/destroyC_Admin/{c_AdminId}', 'App\Http\Controllers\SuperAdmin\CompanyAdminController@destroy')->name('C_Admin.destroy'); 
    
- 
-// companyAdmin     
+  
+// companyAdmin    
 Route::get('companyAdmin/showTransaction', 'App\Http\Controllers\CompanyAdmin\TransactionController@showT')->name('Trans.showT'); 
 Route::get('companyAdmin/createDeposit', 'App\Http\Controllers\CompanyAdmin\DepositController@create')->name('Deposit.create');
 Route::post('companyAdmin/storeDeposit', 'App\Http\Controllers\CompanyAdmin\DepositController@store')->name('Deposit.store');
