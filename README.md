@@ -2,17 +2,6 @@
 
 WALLET_MANAGEMENT is a web application designed to manage the relationship between banks and companies. This system includes three distinct user roles: Super Admin, Company Admin, and Bank Admin, each with specific functionalities.
 
-## Table of Contents
-
-- [Features](#features)
-  - [Super Admin](#super-admin)
-  - [Company Admin](#company-admin)
-  - [Bank Admin](#bank-admin)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 ### Super Admin
