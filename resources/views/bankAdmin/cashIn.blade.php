@@ -92,7 +92,7 @@
         </div>
             <div class="form-group">
                 <label for="account_number">Account Number:</label>
-                <input type="text" id="account_number" name="account_number" required>
+                <input type="number" id="account_number" name="account_number" maxlength="14" required>
             </div>
 
             <div class="form-group">

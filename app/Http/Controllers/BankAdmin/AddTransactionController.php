@@ -24,7 +24,7 @@ class AddTransactionController extends Controller
         
         $rules = [
             'company_id' => 'required',
-            'account_number' => 'required',
+            'account_number' => 'required|digits:14',
             'amount' => 'required',
             
         ];
@@ -81,7 +81,7 @@ class AddTransactionController extends Controller
         
         $rules = [
             'company_id' => 'required',
-            'account_number' => 'required',
+            'account_number' => 'required|digits:14',
             'amount' => 'required',
             
         ];
